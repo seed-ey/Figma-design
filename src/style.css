@@ -1,6 +1,7 @@
 body {
     margin: 0;
     padding:0;
+    width: 100%
 }   
 
 
@@ -12,6 +13,7 @@ body {
     background: #FFFFFF;
     position: relative;
     border: 1px solid #ccc;
+    
 }
 .header {
     margin-left: 200px;
@@ -258,6 +260,47 @@ footer li {
 
 }
 @media screen and (max-width: 600px) {
+    .card {
+       font-size: 14px;
+       margin-left: -100px;
+       display: block;
+       
+    
+    }
+    .header {
+        margin-top: 20px
+    }
+    .top{
+        width: 350px;
+    }
+    
+    input {
+        width: 350px;
+    }
+    button {
+        width: 350px;
+    }
+    .background{
+        width: 100%;
+    
+    
+    }
+    .background img {
+        width: 200px;
+        height: 80px;
+        margin-top: 320px;
+        margin-left: 250px;
+    } 
+    .boxing {
+        margin-left: 230px;
+        width: 300px;
+        height: 90px;
+    }  
+    footer ul{
+        margin-left: -50px;
+    } 
+}
+@media screen and (max-width: 820px) {
     .card {
        font-size: 14px;
        margin-left: -160px;
